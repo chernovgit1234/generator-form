@@ -1,0 +1,48 @@
+.ready-form {
+    display: flex;
+    justify-content: center;
+
+    &__body {
+      position: relative;
+    }
+
+    &__content {
+      min-width: 550px;
+      max-height: 700px;
+      overflow: auto;
+      margin-top: 50px;
+      border: 1px solid rgb(231, 230, 230);
+      border-radius: 8px;
+      padding: 10px 20px;
+      -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+      -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+      box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    }
+
+    &__field {
+      margin: 25px 0;
+    }
+
+    &__text {
+      font-size: 34px;
+      color: #f80e0e;
+    }
+
+    &__object {
+      position: absolute;
+      right: -220px;
+      top: 50px;
+      max-width: 160px;
+      
+      pre {
+        overflow-y: hidden;
+      }
+
+      span {
+        font-size: 16px;
+        font-family: 'UbuntuRegular';
+        margin-bottom: 20px;
+        display: block;
+      }
+    }
+  }

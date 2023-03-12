@@ -1,0 +1,55 @@
+@import url('./null.scss');
+@import url('./fonts.scss');
+@import url('./mixins.scss');
+@import url('./variables.scss');
+@import url('./componentsStyles/form.scss');
+@import url('./componentsStyles/create.scss');
+@import url('./componentsStyles/generate.scss');
+@import url('./componentsStyles/setting-field.scss');
+
+.hr-bottom {
+    border-bottom: 1px solid #d4d2d2ea;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.null-btn {
+    border: 1px solid #d4d2d2ea;
+    padding: 8px 12px;
+    border-radius: 2px;
+    transition: all 0.3s ease 0s;
+}
+
+.null-form-btn {
+    border: 1px solid #d4d2d2ea;
+    padding: 8px 12px;
+    border-radius: 2px;
+    max-width: 100%;
+}
+
+button[disabled] {
+    cursor: default;
+}
+
+.null-form-input {
+    padding: 8px 12px;
+    border: 1px solid #d4d2d2ea;
+    border-radius: 2px;
+}
+
+.null-form-textarea {
+    resize: none;
+    padding: 8px 12px;
+    border: 1px solid #d4d2d2ea;
+    border-radius: 2px;
+    height: 70px;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .3s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}

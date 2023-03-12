@@ -1,0 +1,66 @@
+
+[
+    {
+        "label":"имя",
+        "placeholder":"Введи имя",
+        "style":"width: 100%;",
+        "class":"null-form-input",
+        "type":"text",
+        "maxlength":30,
+        "typeName":"FormInput",
+        "id":1678567009794
+    },
+    {
+        "label":"фамилия",
+        "placeholder":"Введи фамилию",
+        "style":"width: 100%;",
+        "class":"null-form-input",
+        "type":"",
+        "maxlength":null,
+        "typeName":"FormInput",
+        "id":1678567057024
+    },
+    {
+        "options":[
+            {
+                "id":1678567079160,
+                "name":"муж"
+            },
+            {
+                "id":1678567082368,
+                "name":"жен"
+            }],
+        "style":"margin-right: auto;",
+        "label":"пол",
+        "typeName":"FormDropdown",
+        "id":1678567087910}
+    ,
+    {
+        "label":"О себе",
+        "placeholder":"Напиши о себе",
+        "style":"width: 100%;",
+        "class":"null-form-textarea",
+        "maxlength":50,
+        "typeName":"FormTextarea",
+        "id":1678567134071
+    },
+    {
+        "label":"Я даю согласие на обработку своих персональных данных",
+        "style":"",
+        "class":"null-form-checkbox",
+        "typeName":"FormCheckbox",
+        "id":1678567171852
+    },
+    {
+        "style":"background-color:rgb(32,125,207);width: 100%;color:rgb(247,247,247);border-color:rgb(234,234,234);",
+        "class":"null-form-btn",
+        "type":"submit",
+        "name":"Отправить",
+        "disabled":false,
+        "typeName":"FormButton",
+        "id":1678567192480
+    }
+]
+
+
+
